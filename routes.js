@@ -1,7 +1,6 @@
 // routes.js
 import express from 'express';
-import { inverterArvoreController } from './controllers/arvoreController.js';
-import { parenteses } from './controllers/parenteses.js'
+import { avaliarRiscoCarga } from './controllers/avaliacao_de_risco.js'
 
 const router = express.Router();
 
@@ -9,7 +8,7 @@ router.get('/', (req, res) => {
   res.send('Live Coding no ar!');
 });
 
-router.post('/inverterArvore', inverterArvoreController);
-router.post('/verificaParenteses', parenteses )
+router.post('/avaliacao_risco', avaliarRiscoCarga);
+
 
 export default router;

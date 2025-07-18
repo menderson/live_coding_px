@@ -1,0 +1,19 @@
+// ESTRUTURA DE DEADOS - Objeto 
+
+// Separar Regras em diferentes funções - retorno(quantos niveis subiu o grau de risco, lista[motivos]) (4 funções)
+
+//para cada topico de uma regra- somando geral de risco - e concatenando um motivo - Map
+// 'cargo_type' : [
+//     {
+//         'regra': string //tipo de carga, condicçoes climaticas
+//         'limitante': 'string' //menor', 'maior', 'igual'
+//         'valor alvo': number
+//     }
+]
+
+//sempre três chaves para a saida: 
+
+
+//Ordem
+//1) Estrutura do objeto - operacao
+//2) Map - regras de cada topico
